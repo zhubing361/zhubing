@@ -1,6 +1,6 @@
 # 2020年求职简历
 
-[点击下载](http://www.zhubingx.com/docs/2020-zhubing-resume.docx "点击下载")
+<[点击这里下载word文档](http://www.zhubingx.com/docs/2020-zhubing-resume.docx "点击这里下载word文档")>
 
 **朱兵**
 
