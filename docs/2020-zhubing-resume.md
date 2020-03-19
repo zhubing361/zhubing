@@ -2,6 +2,7 @@
 
 <[点击这里下载word文档](http://www.zhubingx.com/docs/2020-zhubing-resume.docx "点击这里下载word文档")>
 
+
 **朱兵**
 
 
@@ -279,5 +280,8 @@
     自学过 python，用python写过一些爬虫程序，工作中没有应用场景，没有深入学习
 
 12. golang 目前还在学习计划列表中，未开始
+
+
+![简历二维码](http://www.zhubingx.com/images/qrcode-a.png)
    
     
