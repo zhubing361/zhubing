@@ -38,7 +38,7 @@ function init(){
 		// htmlDecode : "style,script,iframe",  // Note: If enabled, you should filter some dangerous HTML tags for website security.
 		tocm : true,
 		tocContainer : "",
-		tocDropdown   : true,
+		tocDropdown   : false,
         tocTitle      : "目录",
 		onpreviewscroll : function(event) {
 			console.log(event);
