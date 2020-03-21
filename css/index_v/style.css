@@ -1998,3 +1998,18 @@ hr {
     text-align: left;
     font-size: 14px;
 }
+
+.resume-qrcode {
+    margin: 5px;
+}
+
+.resume-qrcode .qrcode-img {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.resume-qrcode .qrcode-text {
+    color: #fff;
+    margin: 5px;
+    font-size: xx-small;
+}

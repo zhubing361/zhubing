@@ -137,4 +137,9 @@
     $('#lonon-main-menu').on('click', 'li', function () {
         $(this).addClass("lonon-active").siblings().removeClass("lonon-active")
     })
+
+    //显示二维码
+    $('.resume-qrcode-btn').on('click', function(){
+        $('.resume-qrcode').toggle(1000);
+    })
 }());
