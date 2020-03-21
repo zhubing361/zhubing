@@ -588,25 +588,37 @@
 
 <script>
     $(function () {
-        setTimeout(function(){
-            $('.share-box').show()
-        }, 1000)
-        window._bd_share_config = {
-            "common": {
-                //"bdSnsKey" : {},
-                "bdText": '朱兵的求职小简历',
-                "bdComment": '你有需求，我有技术，我们一起向前走。',
-                //"bdMini" : "2",//按钮排列2行
-                //"bdMiniList" : false,//按钮的数组
-                "bdPic": "http://linweb.applinzi.com/public/img/weixin.png",//分享的图像地址
-                "bdStyle": "0",//按钮样式
-                "bdSize": "32",//按钮大小
-                "bdUrl": window.location.href,//分享的地址
-                "bdDesc": '你有需求，我有技术，我们一起向前走。',
-            },
-            "share": {},
-        };
-        with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+        var ua = navigator.userAgent;
+        var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+            isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+            isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+            isMobile = isIphone || isAndroid;
+        if (!isMobile) {
+            /**
+             * 分享
+             */
+            setTimeout(function () {
+                $('.share-box').show()
+            }, 1000)
+            window._bd_share_config = {
+                "common": {
+                    //"bdSnsKey" : {},
+                    "bdText": '朱兵的求职小简历',
+                    "bdComment": '你有需求，我有技术，我们一起向前走。',
+                    //"bdMini" : "2",//按钮排列2行
+                    //"bdMiniList" : false,//按钮的数组
+                    "bdPic": "http://linweb.applinzi.com/public/img/weixin.png",//分享的图像地址
+                    "bdStyle": "0",//按钮样式
+                    "bdSize": "32",//按钮大小
+                    "bdUrl": window.location.href,//分享的地址
+                    "bdDesc": '你有需求，我有技术，我们一起向前走。',
+                },
+                "share": {},
+            };
+
+            with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+        }
     })
 </script>
 </body>
