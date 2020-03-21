@@ -31,6 +31,8 @@
 
 
 		面试，不做面试题，不回答基础理论知识，若有需求，可结合业务实现
+		
+		不是很喜欢(不擅长)说，会的都写出来了
 	
 
 ## 工作经历
@@ -95,7 +97,7 @@
 
 		核心功能点：会员系统、商品、订单、团购、秒杀
 
-		项目运行环境：linux、阿里云服务器与数据库、七牛云CDN加速
+		项目运行环境：nginx、ecs|rds、静态资源七牛云CDN加速
 
 		项目开发工具：phpstorm、mysql workbench、svn、editplus、flashfxp、thinkphp
 
@@ -109,7 +111,7 @@
 
 		核心功能点：微信语音接口、大数据
 
-		项目运行环境：linux、阿里云服务器与数据库、七牛云CDN加速
+		项目运行环境：nginx、ecs|rds、静态资源七牛云CDN加速
 
 		项目开发工具：phpstorm、mysql workbench、svn、editplus、flashfxp、thinkphp
 
@@ -123,7 +125,7 @@
 
 		核心功能点：图片上传 、投票、大数据、人脸识别
 
-		项目运行环境：linux、阿里云服务器与数据库、七牛云CDN加速
+		项目运行环境：nginx、ecs|rds、静态资源七牛云CDN加速
 
 		项目开发工具：phpstorm、mysql workbench、svn、editplus、flashfxp、thinkphp
 
@@ -137,7 +139,7 @@
 
 		核心功能点：会员系统、金币（积分）系统、物料宣传管理系统、宽带预约系统、每月定期的h5活动开发等
 
-		项目运行环境：linux、nginx+mysql 、阿里云服务器与数据库、七牛云CDN加速
+		项目运行环境：nginx、ecs|rds、静态资源七牛云CDN加速
 
 		项目开发工具：phpstorm、mysql workbench、svn、editplus、flashfxp、thinkphp
 
@@ -151,7 +153,7 @@
 
 		核心功能点：商家管理，优惠券管理，活动管理，多层分享逻辑；
 		
-        项目运行环境：linux、nginx+mysql 、阿里云服务器与数据库、七牛云CDN加速
+		项目运行环境：nginx、ecs|rds、静态资源七牛云CDN加速
 
         项目开发工具：phpstorm、mysql workbench、svn、editplus、flashfxp、thinkphp
 
@@ -165,7 +167,7 @@
 
 		核心功能点：员工管理、活动管理、公众号管理、营销插件管理等
 		
-        项目运行环境：linux、nginx+mysql 、阿里云服务器与数据库、七牛云CDN加速
+		项目运行环境：nginx、ecs|rds、静态资源七牛云CDN加速
 
         项目开发工具：phpstorm、mysql workbench、svn、editplus、flashfxp、thinkphp
 
@@ -211,7 +213,6 @@
 
     熟悉php语法，以及常用内置系统方法
     熟悉oop面向对象编程思想，以及常用开发模式(单例、工厂、注册树等)
-    了解 php5 与 php7 区别，主要体现在性能方面的优化
 
 2. mysql
 
@@ -229,8 +230,7 @@
     精通laravel框架
     
         在土流网工作期间 使用 laravel框架(5.2、5.8) 做相关业务支持，(两天框架和项目熟悉上手)
-        目前用到了基础功能(路由、中间件、orm)、通知(极光推送)、事件监听、定时任务、队列任务、缓存、单元测试、数据填充迁移、api资源、viewComposer(视图组合器)、支付扩展等等
-        熟悉框架容器和注入实现
+        做过一些典型功能：如 极光推送、视图组合器(viewComposer)、支付、消息队列
 
 5. linux/shell
 
@@ -270,6 +270,7 @@
 
 
 ## 简历二维码
+
 ![简历二维码](http://www.zhubingx.com/images/qrcode-a.png)
    
     
