@@ -141,7 +141,7 @@
     //显示二维码
     $('.resume-qrcode-btn').on('click', function(){
         $('.resume-qrcode').toggle(1000);
-        $('.share-box').show();
+        $('.share-box').toggle(1000);
     })
 
     //提示
