@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="./css/index_v/animate.css">
     <link rel="stylesheet" href="./css/index_v/et-lineicons.css">
     <link rel="stylesheet" href="./css/index_v/themify-icons.css">
-    <link rel="stylesheet" href="./css/index_v/bootstrap.css">
+    <!--<link rel="stylesheet" href="./css/index_v/bootstrap.css">-->
     <link rel="stylesheet" href="./css/index_v/style.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 <div id="lonon-page">
@@ -42,19 +43,22 @@
         </nav>
         <!-- Sidebar Footer -->
         <div class="lonon-footer">
-            <ul>
-                <li title="下载word版本">
+            <ul class="toggle-popover">
+                <li title="下载word版本" data-container="body" data-toggle="popover" data-placement="top"
+                    data-content="点击下载word版本简历？">
                     <a href="http://www.zhubingx.com/docs/2020-zhubing-resume.docx">
                         <i class="ti-download font-14px gray-icon"></i>
                     </a>
                 </li>
-                <li title="简历">
+                <li title="简历" data-container="body" data-toggle="popover" data-placement="top"
+                    data-content="点击查看markdown版本简历？">
                     <a href="http://www.zhubingx.com/index.html" target="_blank">
                         <i class="ti-dribbble font-14px gray-icon"></i>
                     </a>
                 </li>
-                <li title="查看二维码" class="resume-qrcode-btn">
-                    <a href="javascript:void(0);" target="_blank">
+                <li title="查看二维码" data-container="body" data-toggle="popover" data-placement="top"
+                    data-content="点击查看简历二维码？">
+                    <a class="resume-qrcode-btn" href="javascript:void(0);" target="_blank">
                         <i class="ti-share font-14px gray-icon"></i>
                     </a>
                 </li>
@@ -592,6 +596,7 @@
 <script src="./js/index_v/bootstrap.min.js"></script>
 <script src="./js/index_v/jquery.waypoints.min.js"></script>
 <script src="./js/index_v/sticky-kit.min.js"></script>
+<!--<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 <script src="./js/index_v/main.js"></script>
 
 <script>
@@ -606,9 +611,6 @@
             /**
              * 分享
              */
-            setTimeout(function () {
-                $('.share-box').show()
-            }, 1000)
             window._bd_share_config = {
                 "common": {
                     //"bdSnsKey" : {},

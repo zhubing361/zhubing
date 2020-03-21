@@ -141,5 +141,22 @@
     //显示二维码
     $('.resume-qrcode-btn').on('click', function(){
         $('.resume-qrcode').toggle(1000);
+        $('.share-box').show();
     })
+
+    //提示
+    $("[data-toggle='popover']").on({
+        mouseenter: function(){
+            let index = $('.toggle-popover li').index(this);
+            $("[data-toggle='popover']").eq(index).popover('show');
+        },
+        mouseleave: function(){
+            let index = $('.toggle-popover li').index(this);
+            $("[data-toggle='popover']").eq(index).popover('destroy');
+        }
+    });
+    $("[data-toggle='popover']").eq(0).popover('show');
+    setTimeout(function(){
+        $("[data-toggle='popover']").eq(0).popover('destroy');
+    }, 2000);
 }());
