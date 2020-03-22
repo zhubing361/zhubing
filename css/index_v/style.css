@@ -2013,3 +2013,7 @@ hr {
     margin: 5px;
     font-size: xx-small;
 }
+
+a:hover{
+    color: #d62e2f !important;
+}

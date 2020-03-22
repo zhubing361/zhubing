@@ -152,11 +152,11 @@
         },
         mouseleave: function(){
             let index = $('.toggle-popover li').index(this);
-            $("[data-toggle='popover']").eq(index).popover('destroy');
+            $("[data-toggle='popover']").eq(index).popover('hide');
         }
     });
     $("[data-toggle='popover']").eq(0).popover('show');
     setTimeout(function(){
-        $("[data-toggle='popover']").eq(0).popover('destroy');
+        $("[data-toggle='popover']").eq(0).popover('hide');
     }, 2000);
 }());
