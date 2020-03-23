@@ -132,31 +132,4 @@
         h();
         j()
     })
-
-    //菜单切换
-    $('#lonon-main-menu').on('click', 'li', function () {
-        $(this).addClass("lonon-active").siblings().removeClass("lonon-active")
-    })
-
-    //显示二维码
-    $('.resume-qrcode-btn').on('click', function(){
-        $('.resume-qrcode').toggle(1000);
-        $('.share-box').toggle(1000);
-    })
-
-    //提示
-    $("[data-toggle='popover']").on({
-        mouseenter: function(){
-            let index = $('.toggle-popover li').index(this);
-            $("[data-toggle='popover']").eq(index).popover('show');
-        },
-        mouseleave: function(){
-            let index = $('.toggle-popover li').index(this);
-            $("[data-toggle='popover']").eq(index).popover('hide');
-        }
-    });
-    $("[data-toggle='popover']").eq(0).popover('show');
-    setTimeout(function(){
-        $("[data-toggle='popover']").eq(0).popover('hide');
-    }, 2000);
 }());
