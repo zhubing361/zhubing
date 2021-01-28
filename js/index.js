@@ -38,7 +38,7 @@ $(function () {
          * callback 回调
          */
         getContent(y, callback) {
-            y = y || 2020
+            y = y || 2021
             $.get('./api/get_file.php', {y: y}, function (res) {
                 if (res.status == 1) {
                     if (res.content.length > 0) {
