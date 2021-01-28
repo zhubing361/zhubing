@@ -2,7 +2,7 @@
 
 cd docs
 
-git add 2020-zhubing-resume.md
+git add 2021-zhubing-resume.md
 
 git commit -m 'update'
 

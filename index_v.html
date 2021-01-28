@@ -39,6 +39,7 @@
                 <li><a href="#educationExperience">学习经历</a></li>
                 <li><a href="#selfEvaluation">自我评价</a></li>
                 <li><a href="#skills">个人技能包</a></li>
+                <li id="nav-notes" style="display: none"><a href="#notes">开发笔记</a></li>
             </ul>
         </nav>
         <!-- Sidebar Footer -->
@@ -111,7 +112,7 @@
                         <p>php工程师 · 土流集团</p>
                         <p>男 ︳ 27岁 ︳ 未婚  ︳ 大专 ︳ 5年php开发工作经验 ︳ 长沙</p>
                         <p>联系方式: <a href="tel:13467898157">13467898157(张家界)</a> <a href="tel:19173160216">19173160216(长沙)</a></p>
-                        <p>期望福利：五险一金，双休，可接受常规加班</p>
+                        <p>期望福利：社保+五险一金，双休，可接受常规加班</p>
                         <p>期望薪资：12k~15k</p>
                         <p>目前在职 面试双方满意后，可在一个月内到岗</p>
 
@@ -121,7 +122,6 @@
                                 <p></p>
                                 <p>面试，不做面试题，不回答基础理论知识，若有需求，可结合业务实现</p>
                                 <p>不是很喜欢(不擅长)说，会的都写出来了</p>
-                                <p>未在大型项目中，使用过redis/swoole</p>
                             </div>
                         </div>
 
@@ -173,8 +173,9 @@
                                 <div>
                                     <div class="work-experience-title">工作内容：</div>
                                     <ol class="work-experience-content">
-                                        <li>燕子到家项目： 集外卖、跑腿、团购功能为一体，负责相关业务模块接口开发、支付相关接口开发、结算模块相关功能开发，与app和h5端对接、联调</li>
-                                        <li>住宅在线项目：负责住宅在线项目迭代业务模块接口开发，支付模块开发，与app和h5端对接、联调</li>
+                                        <li>燕子到家项目： 集外卖、跑腿、团购功能为一体，负责相关业务模块接口开发、支付业务相关接口开发、结算业务模块相关功能开发，与app和h5端对接、联调</li>
+                                        <li>住宅在线\共享住宅项目：负责住宅在线项目迭代业务模块接口开发，支付业务模块开发，与app和h5端对接、联调</li>
+										<li>土流网项目：接口代码优化，框架升级</li>
                                     </ol>
                                 </div>
                             </div>
@@ -278,7 +279,7 @@
                             <h5>
                                 <strong>PHP工程师</strong>
                             </h5>
-                            <p class="occupation">负责数据结构设计、接口、管理后台开发</p>
+                            <p class="occupation">负责数据结构设计、接口、管理后台开发，活动框架结构升级优化</p>
                         </div>
                     </div>
 
@@ -297,7 +298,7 @@
                             <h5>
                                 <strong>PHP工程师</strong>
                             </h5>
-                            <p class="occupation">负责数据结构设计、接口、管理后台开发</p>
+                            <p class="occupation">负责数据结构设计、接口、管理后台开发，框架结构升级优化</p>
                         </div>
                     </div>
 
@@ -316,7 +317,7 @@
                             <h5>
                                 <strong>PHP工程师</strong>
                             </h5>
-                            <p class="occupation">负责数据结构设计、接口、管理后台开发</p>
+                            <p class="occupation">负责数据结构设计、接口、管理后台开发，框架结构升级优化</p>
                         </div>
                     </div>
                 </div>
@@ -357,7 +358,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft" style="display:none">
                         <div class="lonon-quote-card">
                             <img src="./images/index_v/quote.png" alt="" class="lonon-quote-2">
                             <h5>
@@ -383,7 +384,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft" style="display:none">
                         <div class="clients">
                             <img src="./images/index_v/c4.png" class="img-fluid" alt="">
                         </div>
@@ -423,7 +424,8 @@
                                 <div>php</div>
                                 <ol class="work-experience-content">
                                     <li>熟悉php语法，以及常用内置系统方法</li>
-                                    <li>熟悉oop面向对象编程思想，以及常用开发模式(单例、工厂、注册树等)</li>
+                                    <li>熟悉oop面向对象编程思想，以及常用开发模式</li>
+									<li>可完成基于php的常用业务实现和功能代码优化</li>
                                 </ol>
                             </div>
                         </div>
@@ -436,7 +438,7 @@
                                 <div>mysql</div>
                                 <ol class="work-experience-content">
                                     <li>熟悉mysql语法，常用数据类型、常用索引、事务处理</li>
-                                    <li>可根据具体业务 完成 适用于相关业务的数据结构，以及相关数据结构的优化</li>
+                                    <li>可根据具体业务 完成 适用于相关业务的数据结构，以及相关数据结构、索引的优化</li>
                                 </ol>
                             </div>
                         </div>
@@ -469,8 +471,14 @@
                                         <div>
                                             <div>精通laravel框架</div>
                                             <ol>
-                                                <li>在土流网工作期间 使用 laravel框架(5.2、5.8) 做相关业务支持</li>
-                                                <li>做过一些典型功能：如 极光推送、支付、消息队列/通知</li>
+                                                <li>在土流网工作期间 使用 laravel框架(5.2、5.8、8.0) 做相关业务支持</li>
+                                                <li>做过一些典型功能：如 极光推送、微信/支付宝支付、消息队列/通知等</li>
+                                            </ol>
+                                        </div>
+                                        <div>
+                                            <div>熟悉hyperf框架</div>
+                                            <ol>
+                                                <li>使用该框架对现有业务接口做优化升级，提升接口抗并发能力</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -485,7 +493,7 @@
                                     <div>linux/shell</div>
                                     <ol class="work-experience-content">
                                         <li>熟悉linux的常用命令，可编写shell脚本</li>
-                                        <li>linux常用命令 如 文件操作、文件权限控制、内存和cpu使用情况分析、软件安装、更新(含源码操作)等</li>
+                                        <li>linux常用命令 如 文件操作、文件权限控制、内存和cpu使用情况分析、软件安装、更新(含源码编译操作)等</li>
                                         <li>目前市面上有ui界面用于管理相关服务器 所以使用命令操作较少，频繁使用的命令 会编写成脚本 执行</li>
                                     </ol>
                                 </div>
@@ -498,7 +506,7 @@
                                 <div class="bar-title">
                                     <div>开发工具</div>
                                     <ol>
-                                        <li>目前使用phpstorm做php代码编写，以及 git/svn/ftp管理</li>
+                                        <li>目前使用phpstorm做php代码编写，以及 git/svn|ftp管理</li>
                                         <li>代码编写、协同(svn)、上传(ftp)、命令行测试等 均在 phpstorm 上完成，可节省软件切换和文件查找时间，提升工作效率</li>
                                     </ol>
                                 </div>
@@ -509,20 +517,20 @@
                             <div class="lonon-quote-card" style="display: none">
                                 <img src="./images/index_v/quote.png" alt="" class="lonon-quote-2">
                                 <div class="bar-title">
-                                    <div>swoole、redis、mongodb</div>
+                                    <div>swoole、redis、mongodb、rabbitmq、docker</div>
                                     <ol class="work-experience-content">
                                         <li>
                                             <div>swoole</div>
                                             <ol>
                                                 <li>目前未使用 该扩展做过大型项目，只是使用了长连接、多线程异步任务、异步通知的特性在具体业务中做辅助</li>
-                                                <li>其他操作接口没有具体业务使用到</li>
+                                                <li>使用hyperf框架对公司项目部分接口优化升级</li>
                                             </ol>
                                         </li>
                                         <li>
                                             <div>redis</div>
                                             <ol>
-                                                <li>目前只使用 该扩展做过高访问量的数据缓存(数据查询缓存)，以及登录信息缓存(session共享)</li>
-                                                <li>其他操作接口或数据类型没有具体业务使用到</li>
+                                                <li>目前只使用 该扩展做过高访问量的数据缓存(数据查询缓存)，以及登录信息缓存(session共享)，排行榜查询等业务</li>
+                                                <li></li>
                                             </ol>
                                         </li>
                                         <li>
@@ -532,6 +540,15 @@
                                                 </li>
                                             </ol>
                                         </li>
+										<li>
+											<div>rabbitmq</div>
+											<li>rabbitmq + elasticsearch + canal + binlog 实现搜索业务</li>
+											<li>rabbitmq 实现异步通知、异步调用业务</li>
+										</li>
+										<li>
+											<div>docker</div>
+											<li>可使用docker/docker-compose搭建php相关的环境和服务集群</li>
+										</li>
                                     </ol>
                                 </div>
                             </div>
@@ -543,9 +560,10 @@
                                 <div class="bar-title">
                                     <div>前端框架和组件</div>
                                     <ol class="work-experience-content">
-                                        <li>熟悉jquery、vuejs 、(vant，element)等前端框架和组件</li>
+                                        <li>熟悉jquery、vuejs 、(vant，element-ui)等前端框架和组件</li>
                                         <li>可独立完成基于 html css javascript 的网站开发</li>
                                         <li>由于业务需要 了解了vuejs以及和vue相关的组件(vant\element)</li>
+										<li>可使用前端框架 如layui、element-ui等组件完成后台系统前端页面搭建</li>
                                     </ol>
                                 </div>
                             </div>
@@ -557,11 +575,11 @@
                                 <div class="bar-title">
                                     <div>php心得</div>
                                     <ol class="work-experience-content">
-                                        <li>作为一个php工程师，在工作中其实不会用到较底层的技能实现，更多的是根据业务完成数据结构设计(优化)、接口编写、代码优化、数据安全性校验、性能优化等
+                                        <li>作为一个php工程师，在工作中其实不会用到较底层的技能实现，更多的是根据业务完成数据结构设计(优化)、接口编写、代码优化、数据安全性校验、性能优化、服务器管理等
                                         </li>
-                                        <li style="display: none;">较底层的实现，由于不会经常做调整，更有效的使用协程工作，可交由 c、java、golang等编译型语言处理，性能会更高( -这几门语言我都不会- )
+                                        <li>较底层的实现，由于不会经常做调整，更有效的使用协程工作，可交由 c、java、golang等编译型语言处理，性能会更高
                                         </li>
-                                        <li style="display: none;">在遇到 较难解决的技能问题，可先上网查询相关资料，现学现用</li>
+                                        <li>在遇到 较难解决的技能问题，可先上网查询相关资料，现学现用</li>
                                     </ol>
                                 </div>
                             </div>
@@ -574,8 +592,44 @@
                                     <div>python/golang</div>
                                     <ol class="work-experience-content">
                                         <li>自学过 python，用python写过一些爬虫程序，工作中没有应用场景，没有深入学习</li>
-                                        <li>golang 目前还在学习计划列表中</li>
+                                        <li>自学过 golang，主要了解了 gorm 框架 无实际项目经验</li>
                                     </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 开发笔记 -->
+        <div class="lonon-notes" id="notes" style="display: none">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="heading-meta style-1">开发笔记</span>
+                        <h2 class="lonon-heading animate-box" data-animate-effect="fadeInLeft">开发笔记</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="new-blog" id="blogs">
+                            <div class="grid">
+                                <div class="grid-item">
+                                    <div class="wrap-article">
+                                        <img alt="blog-1" class="img-circle text-center" src="https://demo.mycodes.net/geren/jianyueshejishi/images/blog-4.jpg">
+                                        <p class="subtitle fancy">
+                                            <span>09/01/2017</span>
+                                        </p>
+                                        <a href="#" class="">
+                                            <h3 class="title">
+                                                Popular Design in 2017
+                                            </h3>
+                                        </a>
+                                        <p class="content-blog">
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -653,6 +707,60 @@
             $('.resume-qrcode').toggle(1000);
             $('.share-box').toggle(1000);
         })
+
+        // 显示开发笔记
+        var hash = window.location.hash;
+        if(hash.length > 0 && hash == '#notes') {
+            var recom_list = [];
+            getContent('./api/blog/recom.php', function() {
+                var html = '';
+                if(recom_list.length > 0) {
+                    recom_list.forEach(function(item, index) {
+                        console.log(item);
+                        html += '<div class="grid-item">\n' +
+                            '                                    <div class="wrap-article">\n' +
+                            '                                        <img alt="blog-1" class="img-circle text-center" src="'+item.logo_url+'">\n' +
+                            '                                        <p class="subtitle fancy">\n' +
+                            '                                            <span>'+item.release_time+'</span>\n' +
+                            '                                        </p>\n' +
+                            '                                        <a href="'+item.url+'" class="">\n' +
+                            '                                            <h3 class="title">\n' +
+                            '                                                '+item.title+'\n' +
+                            '                                            </h3>\n' +
+                            '                                        </a>\n' +
+                            '                                        <p class="content-blog">\n' +
+                            '                                           '+item.summary+'\n' +
+                            '                                        </p>\n' +
+                            '                                    </div>\n' +
+                            '                                </div>';
+                    });
+                }
+                $('#blogs > .grid').html(html);
+
+                $('#nav-notes').show();
+                $('#notes').show();
+            });
+        }
+
+        function getContent(url, params, callback) {
+            if(typeof params == 'function') {
+                callback = params;
+                params = undefined;
+            }
+            params = params || {}
+            $.get(url, params, function (res) {
+                if (res.status == 1) {
+                    if (res.content.length > 0) {
+                        recom_list = res.content
+                        if (typeof callback != 'undefined') {
+                            callback()
+                        }
+                    }
+                } else {
+                    console.log(res)
+                }
+            })
+        }
     })
 </script>
 
